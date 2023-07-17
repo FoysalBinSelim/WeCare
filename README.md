@@ -1,2 +1,2 @@
 # WeCare
-Landing Page using HTML SCSS * Javascript
+Landing Page using HTML SCSS and Javascript
