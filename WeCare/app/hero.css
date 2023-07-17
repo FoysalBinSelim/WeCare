@@ -1,0 +1,66 @@
+.hero {
+  margin: 20px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 0px 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.hero .content-info {
+  display: flex;
+  flex-direction: column;
+}
+.hero .content-info h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #2b2d42;
+}
+.hero .content-info .content-box {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.hero .content-info .content-box .content-card {
+  display: flex;
+  flex-direction: column;
+}
+.hero .content-info .content-box .content-card p {
+  color: #bbc1c3;
+  font-size: 0.85rem;
+}
+.hero .content-info .content-box .content-card div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .content-info .content-box .content-card div h3 {
+  font-size: 1.2rem;
+  color: #2b2d42;
+  padding: 0px 10px;
+}
+.hero .content-info .Book-cta {
+  margin-top: 10px;
+  list-style: none;
+  display: inline-block;
+  max-width: 80px;
+  padding: 15px 30px;
+  background: hsl(189, 96%, 39%);
+  border-radius: 5px;
+}
+.hero .content-info .Book-cta li a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: hsl(180, 100%, 100%);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in 0s;
+}
+.hero .content-info .Book-cta li a:hover {
+  color: hsl(188, 6%, 75%);
+  font-style: bold;
+}/*# sourceMappingURL=hero.css.map */

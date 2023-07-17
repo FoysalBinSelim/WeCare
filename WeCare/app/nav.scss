@@ -1,0 +1,130 @@
+.navbar{
+        margin: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: hsl(243, 87%, 12%);
+        font-family: 'Be Vietnam Pro', sans-serif;
+
+    .navlinks{
+        display: flex;
+        justify-content: space-between;
+    
+        .links{
+
+            display: flex;
+            justify-content: space-between;
+            ul{
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-between;
+                        
+                        li{
+                            padding: 0 20px;
+                    
+                            a{
+                                text-decoration: none;
+                                font-size: .85rem;
+                                color: hsl(188, 6%, 75%);
+                                font-weight: 700;
+                                cursor: pointer;
+                                transition: all 0.3s ease-in 0s;
+                            }
+                    
+                            a:hover{
+                                color: hsl(188, 82%, 38%);
+                                font-weight: bold;
+                            }
+                        }
+                }
+        }
+
+        .Book-cta{
+            list-style: none;
+            display: inline-block;
+            padding: 15px 30px;
+            background: hsl(189, 96%, 39%);
+            border-radius: 5px;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease-in 0s;
+
+            .Book-cta:hover{
+                background: hsl(0, 16%, 87%);
+                
+            }
+        }
+
+            li{
+        
+                a{
+                    text-decoration: none;
+                    font-size: .85rem;
+                    color: hsl(180, 100%, 100%);
+                    font-weight: 700;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in 0s;
+                }
+
+                a:hover{
+                    color: hsl(188, 6%, 75%);
+                    font-style: bold;
+                }
+
+        }
+    }
+
+
+}
+
+
+
+// .nav{
+//     margin: 0px 20px;
+//     .navbar{
+
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         color: hsl(243, 87%, 12%);
+//         font-family: 'Be Vietnam Pro', sans-serif;
+        
+       
+//     }
+//     ul{
+//         list-style: none;
+//         display: flex;
+//         justify-content: space-between;
+        
+//         li{
+//             padding: 0 20px;
+    
+//             a{
+//                 text-decoration: none;
+//                 font-size: .85rem;
+//                 color: hsl(188, 6%, 75%);
+//                 font-weight: 700;
+//                 cursor: pointer;
+//                 transition: all 0.3s ease-in 0s;
+//             }
+    
+//             a:hover{
+//                 color: hsl(188, 62%, 54%);
+//                 font-style: bold;
+//             }
+//         }
+
+//         .Book-cta{
+
+//             display: inline-block;
+//             padding: 10px 0px;
+//             background: hsl(189, 96%, 39%);
+//             border-radius: 5px;
+//             cursor: pointer;
+//             transition: 0.4s ease-in 0
+
+//         }
+       
+//     }
+
+// }

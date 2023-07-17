@@ -1,0 +1,61 @@
+.navbar {
+  margin: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(243, 87%, 12%);
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.navbar .navlinks {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navlinks .links {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navlinks .links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navlinks .links ul li {
+  padding: 0 20px;
+}
+.navbar .navlinks .links ul li a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: hsl(188, 6%, 75%);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in 0s;
+}
+.navbar .navlinks .links ul li a:hover {
+  color: hsl(188, 82%, 38%);
+  font-weight: bold;
+}
+.navbar .navlinks .Book-cta {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 30px;
+  background: hsl(189, 96%, 39%);
+  border-radius: 5px;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in 0s;
+}
+.navbar .navlinks .Book-cta .Book-cta:hover {
+  background: hsl(0, 16%, 87%);
+}
+.navbar .navlinks li a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: hsl(180, 100%, 100%);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in 0s;
+}
+.navbar .navlinks li a:hover {
+  color: hsl(188, 6%, 75%);
+  font-style: bold;
+}/*# sourceMappingURL=nav.css.map */

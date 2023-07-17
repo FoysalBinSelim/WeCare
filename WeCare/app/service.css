@@ -1,0 +1,18 @@
+.service-counter {
+  background-color: white;
+  margin-left: 40%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
+  color: #04a6c2;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.service-counter h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.service-counter p {
+  font-size: 1rem;
+  font-weight: 300;
+}/*# sourceMappingURL=service.css.map */
